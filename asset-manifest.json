@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/StarwispIndustries/static/css/main.1abad64a.chunk.css",
+    "main.js": "/StarwispIndustries/static/js/main.86b2669a.chunk.js",
+    "main.js.map": "/StarwispIndustries/static/js/main.86b2669a.chunk.js.map",
+    "runtime-main.js": "/StarwispIndustries/static/js/runtime-main.9073163b.js",
+    "runtime-main.js.map": "/StarwispIndustries/static/js/runtime-main.9073163b.js.map",
+    "static/css/2.7aa799cd.chunk.css": "/StarwispIndustries/static/css/2.7aa799cd.chunk.css",
+    "static/js/2.f2c06317.chunk.js": "/StarwispIndustries/static/js/2.f2c06317.chunk.js",
+    "static/js/2.f2c06317.chunk.js.map": "/StarwispIndustries/static/js/2.f2c06317.chunk.js.map",
+    "static/js/3.609df119.chunk.js": "/StarwispIndustries/static/js/3.609df119.chunk.js",
+    "static/js/3.609df119.chunk.js.map": "/StarwispIndustries/static/js/3.609df119.chunk.js.map",
+    "index.html": "/StarwispIndustries/index.html",
+    "static/css/2.7aa799cd.chunk.css.map": "/StarwispIndustries/static/css/2.7aa799cd.chunk.css.map",
+    "static/css/main.1abad64a.chunk.css.map": "/StarwispIndustries/static/css/main.1abad64a.chunk.css.map",
+    "static/js/2.f2c06317.chunk.js.LICENSE.txt": "/StarwispIndustries/static/js/2.f2c06317.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/StarwispIndustries/static/media/SFProDisplay.1e1c0e29.ttf",
+    "static/media/font-awesome.css": "/StarwispIndustries/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/logo.6ce24c58.svg": "/StarwispIndustries/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9073163b.js",
+    "static/css/2.7aa799cd.chunk.css",
+    "static/js/2.f2c06317.chunk.js",
+    "static/css/main.1abad64a.chunk.css",
+    "static/js/main.86b2669a.chunk.js"
+  ]
+}
