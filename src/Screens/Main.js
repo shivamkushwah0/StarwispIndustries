@@ -40,13 +40,13 @@ class Main extends Component {
                     </div>
                     <div className = "col-10 p-0">
                     <Switch >
-                        <Route path="/home" component={() => { return <HomePage 
+                        <Route path={process.env.PUBLIC_URL+"/home"} component={() => { return <HomePage 
                         notes={this.props.notes} 
                         notifications = {this.props.notifications} 
                         events = {this.props.events}
                         add_note = {this.props.add_note}
                         />   }} />
-                        <Route path ="/conversation" component={()=> {return <ConverSationScreen conversations={this.props.conversations} add_post={this.props.add_post}/>}}/> 
+                        <Route path ={process.env.PUBLIC_URL+"/conversation"} component={()=> {return <ConverSationScreen conversations={this.props.conversations} add_post={this.props.add_post}/>}}/> 
                         <Redirect to="/home"/>
                         </Switch>
                     </div>
