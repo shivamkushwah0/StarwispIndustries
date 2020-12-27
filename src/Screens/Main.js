@@ -47,7 +47,7 @@ class Main extends Component {
                         add_note = {this.props.add_note}
                         />   }} />
                         <Route path ={process.env.PUBLIC_URL+"/conversation"} component={()=> {return <ConverSationScreen conversations={this.props.conversations} add_post={this.props.add_post}/>}}/> 
-                        <Redirect to="/home"/>
+                        <Redirect to={process.env.PUBLIC_URL+"/home"}/>
                         </Switch>
                     </div>
                 
