@@ -85,7 +85,7 @@ return (
     </TabContent>
     <div className="view-all-tab">
     
-    <a href="/conversation" type="button" className="text-muted">View All</a>
+    <Link to="/conversation" type="button" className="text-muted">View All</a>
     </div>
    
 </div>
