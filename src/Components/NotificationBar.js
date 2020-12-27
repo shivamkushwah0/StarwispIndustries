@@ -1,5 +1,6 @@
 import React ,{useState} from "react";
-import { TabContent, TabPane, Nav, NavItem, NavLink, Link ,  Row } from 'reactstrap';
+import { TabContent, TabPane, Nav, NavItem, NavLink ,  Row } from 'reactstrap';
+
 
 
 
@@ -21,6 +22,7 @@ const Loader = (props) => {
     const list = props.dataarray.map((data) => {
         return (
             <>
+            
             <div className = "single-data-loader" >
                 <div className = "image-loader">
                 <img src={data.image} 
@@ -85,7 +87,7 @@ return (
     </TabContent>
     <div className="view-all-tab">
     
-    <Link to="/conversation" type="button" className="text-muted">View All</Link>
+    <a href="/conversation" type="button" className="text-muted">View All</a>
     </div>
    
 </div>
