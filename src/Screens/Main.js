@@ -1,10 +1,8 @@
 import React , {Component} from "react";
 import HomePage from "./HomeScreen";
-import {notes} from "../data/Notes"
 import {notifications} from "../data/Notifications"
 import {events} from "../data/Events"
 import ConverSationScreen from './ConverSationScreen';
-import {conversations} from "../data/conversation" 
 import {Redirect, Switch , withRouter , Route} from "react-router-dom";
 import {connect} from 'react-redux';
 import SideBar from "../Components/SideBar";

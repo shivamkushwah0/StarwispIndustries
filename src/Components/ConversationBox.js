@@ -11,7 +11,7 @@ const ConversationBox = (props) => {
                  <div className="container-fluid">
                      <div className="row">
                      <div className="image-box col-1">
-                        <img src={data.image} height={50} width={50}/>
+                        <img src={data.image} height={50} width={50}  alt="user"/>
                     </div>
                      
                 <div className="col-11">

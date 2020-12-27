@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import ConverSationScreen from './Screens/ConverSationScreen';
 import Main from "./Screens/Main";
 import { BrowserRouter } from "react-router-dom"
 import {Provider} from 'react-redux';

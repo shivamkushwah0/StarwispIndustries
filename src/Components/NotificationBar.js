@@ -1,7 +1,6 @@
 import React ,{useState} from "react";
-import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
-import classnames from 'classnames'
-import { notes } from "../data/Notes";
+import { TabContent, TabPane, Nav, NavItem, NavLink ,  Row } from 'reactstrap';
+
 
 
 const NotificationBar = (props) => {
@@ -27,6 +26,7 @@ const Loader = (props) => {
                 <img src={data.image} 
                 height = {40} 
                 width={40}
+                alt="user"
                 />
                 </div>
                 <div className="data-loader">

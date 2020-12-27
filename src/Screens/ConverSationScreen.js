@@ -1,7 +1,6 @@
 import React from "react";
 import ConversationBox from "../Components/ConversationBox";
 import PostBox from "../Components/PostBox";
-import SideBar from "../Components/SideBar";
 
 
 const ConverSationScreen =  (props) =>
