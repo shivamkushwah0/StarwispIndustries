@@ -1,5 +1,5 @@
 import Main from "./Screens/Main";
-import { HashRouter } from "react-router-dom"
+import { BrowserRouter } from "react-router-dom"
 import {Provider} from 'react-redux';
 import { ConfigureStore } from './Redux/ConfigureStore';
 
@@ -8,11 +8,11 @@ const store = ConfigureStore();
 function App() {
   return (
   <Provider store = {store} >
-<HashRouter >
+<BrowserRouter >
   <div>
     <Main />
   </div>
-  </HashRouter>
+  </BrowserRouter>
   </Provider>
     
   );
