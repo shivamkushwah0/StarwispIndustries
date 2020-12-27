@@ -1,5 +1,5 @@
 import React ,{useState} from "react";
-import { TabContent, TabPane, Nav, NavItem, NavLink ,  Row } from 'reactstrap';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Link ,  Row } from 'reactstrap';
 
 
 
@@ -85,7 +85,7 @@ return (
     </TabContent>
     <div className="view-all-tab">
     
-    <Link to="/conversation" type="button" className="text-muted">View All</a>
+    <Link to="/conversation" type="button" className="text-muted">View All</Link>
     </div>
    
 </div>
