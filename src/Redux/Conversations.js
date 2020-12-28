@@ -1,6 +1,6 @@
 import {conversations} from "../data/conversation"
 
-export const Conversations = (state = conversations , action) => {
+export const Conversations = (state = {conversations : conversations} , action) => {
 
     switch (action.type) {
         case "add" : { 
@@ -10,10 +10,10 @@ export const Conversations = (state = conversations , action) => {
                 image : "assets/images/Rectangle.png",
                 title: "Username" ,
                 time : d.toLocaleTimeString(),
-                body : action.payload,
-                comments : []
+                body : action.payload
             }]
-            return data.concat(state);
+            console.log(state);
+            return {conversations : data.concat(state.conversations)};
         }
         default : return state;
     }

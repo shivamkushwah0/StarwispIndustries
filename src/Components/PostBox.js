@@ -1,5 +1,5 @@
 import React ,{useState} from "react";
-import {Input , Label ,Button , Form, ButtonGroup} from 'reactstrap'
+import {Input , Label ,Button , Form, ButtonGroup} from 'reactstrap';
 const PostBox = (props) => {
 
     const [post , setPost] = useState("")
@@ -20,7 +20,7 @@ const PostBox = (props) => {
     }
 
     return (
-        <div className = "PostBox">
+        <div className = "PostBox" >
             <Form onSubmit={(e) => handleSubmit(e)}>
             <Label className="InputArea">
                 <Input type="textarea" name="post" placeholder="Share Something with your class" required={true}

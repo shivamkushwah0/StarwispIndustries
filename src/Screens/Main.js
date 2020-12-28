@@ -41,12 +41,12 @@ class Main extends Component {
                     <div className = "col-10 p-0">
                     <Switch >
                         <Route  path="/home" component={() => { return <HomePage 
-                        notes={this.props.notes} 
+                        notes={this.props.notes.notes} 
                         notifications = {this.props.notifications} 
                         events = {this.props.events}
                         add_note = {this.props.add_note}
                         />   }} />
-                        <Route path ="/conversation" component={()=> {return <ConverSationScreen conversations={this.props.conversations} add_post={this.props.add_post}/>}}/> 
+                        <Route path ="/conversation" component={()=> {return <ConverSationScreen conversations={this.props.conversations.conversations} add_post={this.props.add_post}/>}}/> 
                         <Redirect to="/home"/>
                         </Switch>
                     </div>

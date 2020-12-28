@@ -1,6 +1,6 @@
 import {notes} from "../data/Notes";
 
-export const Notes = (state = notes , action) => {
+export const Notes = (state = {notes : notes} , action) => {
 
     switch (action.type) {
         case "add-note" : { 
@@ -8,7 +8,8 @@ export const Notes = (state = notes , action) => {
                 title : action.payload.title ,
                 body : action.payload.body
             }]
-            return  data.concat(state) ;
+            console.log(state)
+            return  {...state , notes : data.concat(state.notes)} ;
         }
         default : return state;
     }
